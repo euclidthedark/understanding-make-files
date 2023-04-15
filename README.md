@@ -16,6 +16,8 @@ believe the first target is usually `default`.
 
 ##### Important Notes:
 1) To run a specifc target, run `make <target>`
-2) if the target has prerequiste files, it will not run if those files do not
+2) if the target has prerequiste commands, it will not run if those commands do not
      exist.  
+     - the prereq option -l<name> will look to see if <name>.so or <name>.a
+     exist.
 
